@@ -38,6 +38,14 @@ npm install
 npm start
 ```
 
+4. 크롤러 Python 환경 준비
+```bash
+cd crawler
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+
 ## 환경 설정
 
 백엔드 `.env` 파일 설정:
@@ -48,4 +56,4 @@ MONGODB_URI=mongodb://localhost:27017/dragonball
 
 ## 라이선스
 
-MIT License 
+MIT License
